@@ -113,7 +113,7 @@ function fiveTimes() {
 }
 //Bullet Bill is Generated 10 times
 function add10Bills() {
-    for (bulletBillLoopCount = 0; bulletBillLoopCount < 10; bulletBillLoopCount + 0) {
+    for (bulletBillLoopCount = 0; bulletBillLoopCount < 10; bulletBillLoopCount = bulletBillLoopCount + 0) {
         generateItems();
     }
 }
