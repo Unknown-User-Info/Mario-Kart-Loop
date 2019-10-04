@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mario Kart Item Box Probability Assignment</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="simulator">
+        <h1>Welcome to the Mario Kart item box simulator</h1>
+        <hr>
+        <p class="table">
+            <div class="left"><button id="one-to-six">Item probabilities for positions 1-6</button>
+                <table id="left">
+                    <tr>
+                        <th>Item</th>
+                        <th>Probability</th>
+                    </tr>
+                    <tr>
+                        <td>Banana</td>
+                        <td>45%</td>
+                    </tr>
+                    <tr>
+                        <td>Green Shell</td>
+                        <td>35%</td>
+                    </tr>
+                    <tr>
+                        <td>Star</td>
+                        <td>15%</td>
+                    </tr>
+                    <tr>
+                        <td>Golden Mushroom</td>
+                        <td>4%</td>
+                    </tr>
+                    <tr>
+                        <td>Bullet Bill</td>
+                        <td>1%</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="right"><button id="seven-to-twelve">Item probailities for positions 7-12</button>
+                <table id="right">
+                    <tr>
+                        <th>Item</th>
+                        <th>Probability</th>
+                    </tr>
+                    <tr>
+                        <td>Banana</td>
+                        <td>5%</td>
+                    </tr>
+                    <tr>
+                        <td>Green Shell</td>
+                        <td>5%</td>
+                    </tr>
+                    <tr>
+                        <td>Star</td>
+                        <td>25%</td>
+                    </tr>
+                    <tr>
+                        <td>Golden Mushroom</td>
+                        <td>35%</td>
+                    </tr>
+                    <tr>
+                        <td>Bullet Bill</td>
+                        <td>30%</td>
+                    </tr>
+                </table>
+            </div>
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <h2>Type in your position in the input box below</h2>
+        <p>Position: <input id="position-box"></p>
+        <hr>
+        <span class="simulator">
+            <h2>Click the box to generate an item</h2>
+            <img id="item-box" src="images/Item Box.png">
+            <p><button id = "fivetimes">Generate 5 items</button> <br> <br><button id = "addtenBills">Generate 10 more Bullet Bills</button> <br> <br>
+            Input the number you want generated: <input id = "user-input">  <button id = "input">Generate</button></p>
+        </span>
+        <span class="results">
+            <table class="table-results">
+                <tr>
+                    <th>Item</th>
+                    <th>Count</th>
+                </tr>
+                <tr>
+                    <td>Banana</td>
+                    <td id="banana-count"></td>
+                </tr>
+                <tr>
+                    <td>Green Shell</td>
+                    <td id="green-shell-count"></td>
+                </tr>
+                <tr>
+                    <td>Star</td>
+                    <td id="star-count"></td>
+                </tr>
+                <tr>
+                    <td>Golden Mushroom</td>
+                    <td id="golden-mushroom-count"></td>
+                </tr>
+                <tr>
+                    <td>Bullet Bill</td>
+                    <td id="bullet-bill-count"></td>
+                </tr>
+            </table>
+        </span>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <hr>
+        <p id="items"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
